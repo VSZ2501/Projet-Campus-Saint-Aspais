@@ -136,7 +136,7 @@ export default function App() {
         </div>
 
         <button onClick={calculerItineraire} className="btn-primary">
-          🚀 Calculer l'itinéraire
+           Calculer l'itinéraire
         </button>
 
         {/*Résultat*/}
@@ -148,7 +148,7 @@ export default function App() {
               className="distance-badge"
               style={{ position: "relative", marginTop: "30px" }}
             >
-              📏 Distance totale : <strong>{resultat.distanceTotal} m</strong>
+               Distance totale : <strong>{resultat.distanceTotal} m</strong>
             </div>
 
             {/*Détails du chemin*/}
