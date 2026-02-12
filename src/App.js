@@ -104,9 +104,9 @@ export default function App() {
           </p>
         </div>
 
-        {/*SÉLECTION*/}
+        {/*Sélection*/}
         <div className="form-group">
-          <label className="label">📍 Point de départ</label>
+          <label className="label">Point de départ</label>
           <select
             value={depart}
             onChange={(e) => setDepart(e.target.value)}
@@ -121,7 +121,7 @@ export default function App() {
         </div>
 
         <div className="form-group">
-          <label className="label">🎯 Destination</label>
+          <label className="label">Destination</label>
           <select
             value={arrivee}
             onChange={(e) => setArrivee(e.target.value)}
@@ -139,7 +139,7 @@ export default function App() {
           🚀 Calculer l'itinéraire
         </button>
 
-        {/*RÉSULTATS*/}
+        {/*Résultat*/}
         {resultat && (
           <div className="result-card">
             <h2 className="result-main-title">✅ Itinéraire trouvé</h2>
@@ -151,12 +151,12 @@ export default function App() {
               📏 Distance totale : <strong>{resultat.distanceTotal} m</strong>
             </div>
 
-            {/*DÉTAILS DU CHEMIN*/}
+            {/*Détails du chemin*/}
             <div
               className="path-section"
               style={{ position: "relative", marginTop: "30px" }}
             >
-              <h3 className="section-title">📊 Détails de votre trajet</h3>
+              <h3 className="section-title">Détails de votre trajet</h3>
               <div
                 className="path-list"
                 style={{ position: "relative", marginTop: "30px" }}
@@ -187,12 +187,12 @@ export default function App() {
               </div>
             </div>
 
-            {/*VISUALISATION*/}
+            {/*Visualisation*/}
             <div
               className="plan-section"
               style={{ position: "relative", marginTop: "30px" }}
             >
-              <h3 className="section-title">🗺️ Visualisation sur le plan</h3>
+              <h3 className="section-title">Visualisation sur le plan</h3>
               <div
                 style={{
                   position: "relative",
