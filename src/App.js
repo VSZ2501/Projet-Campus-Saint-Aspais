@@ -142,7 +142,7 @@ export default function App() {
         {/*Résultat*/}
         {resultat && (
           <div className="result-card">
-            <h2 className="result-main-title">✅ Itinéraire trouvé</h2>
+            <h2 className="result-main-title">Itinéraire trouvé</h2>
 
             <div
               className="distance-badge"
